@@ -51,7 +51,7 @@
   ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/Rajesh6381/jeshRNCalculationPackages"
+    "url": "git+https://github.com/Rajesh6381/jeshRNCalculationPackages.git"
   },
   "author": "Rajesh R <rajesh638191@gmail.com> (https://github.com/Rajesh6381)",
   "license": "MIT",
@@ -185,5 +185,9 @@
   "dependencies": {
     "jesh-divide-rn-package": "^0.1.0",
     "jesh-rn-package": "^0.1.0"
+  },
+  "directories": {
+    "example": "example",
+    "lib": "lib"
   }
 }

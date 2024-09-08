@@ -1,4 +1,4 @@
-import {Calculation} from 'jesh-divide-rn-package'
+import {Divide} from 'jesh-divide-rn-package'
 import {multiply}  from 'jesh-rn-package'
 
 export function Calculator(a: number, b: number): Promise<number> {
@@ -10,5 +10,5 @@ export function CaclulationMuliply(a: number, b: number): Promise<number> {
 }
 
 export function cacluationDivider(a: number, b: number): Promise<number>{
-  return Promise.resolve(Calculation(a,b))
+  return Promise.resolve(Divide(a,b))
 }
