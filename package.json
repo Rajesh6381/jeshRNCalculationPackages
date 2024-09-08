@@ -87,7 +87,9 @@
   },
   "peerDependencies": {
     "react": "*",
-    "react-native": "*"
+    "react-native": "*",
+    "jesh-divide-rn-package": "^0.1.0",
+    "jesh-rn-package": "^0.1.0"
   },
   "workspaces": [
     "example"
@@ -181,10 +183,6 @@
   "create-react-native-library": {
     "type": "library",
     "version": "0.41.0"
-  },
-  "dependencies": {
-    "jesh-divide-rn-package": "^0.1.0",
-    "jesh-rn-package": "^0.1.0"
   },
   "directories": {
     "example": "example",
