@@ -1,6 +1,7 @@
 import {Divide} from 'jesh-divide-rn-package'
 import {multiply}  from 'jesh-rn-package'
 
+// Hi hellos
 export function Calculator(a: number, b: number): Promise<number> {
   return Promise.resolve(a * b);
 }
